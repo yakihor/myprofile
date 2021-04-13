@@ -1,1 +1,2 @@
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+import django_heroku
+django_heroku.settings(locals())
